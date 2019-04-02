@@ -15,7 +15,7 @@ Some of the resources I used are:
   - Reference videos. [Part 1](https://www.youtube.com/watch?v=xm-wmBwJLww) and [Part 2](https://www.youtube.com/watch?v=6Wd1C0-3RXM). (Credits to Sourav Johar)
   - [Email datasets](https://www.youtube.com/redirect?q=http%3A%2F%2Fwww.aueb.gr%2Fusers%2Fion%2Fdata%2Fenron-spam%2Fpreprocessed%2Fenron1.tar.gz&redir_token=igZge-rUVimppzb4E5XF1o5v9ih8MTU1NDI2NzgyNEAxNTU0MTgxNDI0&event=video_description&v=xm-wmBwJLww). (Credits to enron1)
   
-**If code fails to run because of missing scikit-learn(sklearn) libray**, then try running:
+**If code fails to run because of missing scikit-learn(sklearn) library**, then try running:
 
 for `pip`:
 
