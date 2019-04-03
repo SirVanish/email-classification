@@ -27,7 +27,7 @@ for `conda`:
 
 On the Python Console.
 
-## Using 'train.py' nad 'test.py'
+## Using 'train.py' and 'test.py'
 Running 'train.py'
 
 e.g. `python train.py` will run the training and generation of the 'email-classifier.mdl' using the dataset from a 'emails/' directory (dataset I used can be obtained from the link above).
