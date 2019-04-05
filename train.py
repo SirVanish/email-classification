@@ -49,8 +49,6 @@ def genDict():
 
     # removes non-alphanumeric symbols from the words list
     for i in range(len(words)):
-        # next line of code was unoptimized
-        # words[i] = re.compile('[^a-zA-Z]').sub('', words[i])
         if not words[i].isalpha():
             words[i] = ""
 
@@ -61,9 +59,6 @@ def genDict():
 
     # keep track of time end time for dictionary generation
     end_time = time.time()
-
-    # prints 3000 most commonly used words from the dictionary
-    # print dictionary.most_common(3000)
 
     # print the time it took to generate the dictionary
     print("Generated dictionary from " + str(c) + " emails.")
@@ -133,11 +128,6 @@ def main():
     d = genDict()
     # generate the feature set with it's ham vs spam labels
     features, labels = genDataset(d)
-
-    # the num. of fatures and labels should equal
-    # these numbers should be the same
-    # print("Num. of feature sets: " + str(len(features)))
-    # print("Num. of labels:" + str(len(labels)))
 
     # for time
     total_end_time = time.time()
